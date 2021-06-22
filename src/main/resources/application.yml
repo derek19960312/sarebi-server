@@ -1,0 +1,16 @@
+logging:
+  file:
+    name: sarebi_birth_api.log
+    path: .
+spring:
+  datasource:
+    password: motorolamb525
+    url: jdbc:mysql://34.80.251.76:3306/sarebi
+    username: derek
+  jpa: 
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  sql:
+    init:
+      mode: always
